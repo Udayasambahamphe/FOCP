@@ -39,7 +39,7 @@ pw_1st = input("Enter your new password: ")
 
 if 8 <= len(pw_1st) <= 12:
     
-    if pw_1st not in BAD_PASSWORDS:
+    if pw_1st not in bad_passwords:
         pw_2nd = input("Confirm your new password: ")
         
         if pw_1st == pw_2nd:
